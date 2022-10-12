@@ -1,0 +1,55 @@
+<app-navbar></app-navbar>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3">
+
+                <div *ngFor="let i of userData.users" class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-2">
+
+                    <div class="card">
+
+                        <img src="{{i.image}}" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                          <p class="card-title">{{i.id}}</p>
+                          <p class="card-text">{{i.firstName}}</p>
+                          <p class="card-text">{{i.lastName}}</p>
+                          <p class="card-text">{{i.maidenName}}</p>
+                          <p class="card-text">{{i.age}}</p>
+                          <p class="card-text">{{i.gender}}</p>
+                          <p class="card-text">{{i.email}}</p>
+                          <p class="card-text">{{i.phone}}</p>
+                          <p class="card-text">{{i.username}}</p>
+                          <p class="card-text">{{i.password}}</p>
+                          <p class="card-text">{{i.birthDate}}</p>
+                          <p class="card-text">{{i.bloodGroup}}</p>
+                          <p class="card-text">{{i.height}}</p>
+                          <p class="card-text">{{i.weight}}</p>
+                          <p class="card-text">{{i.eyeColor}}</p>
+                          <p class="card-text">{{i.hair}}</p>
+                          <p class="card-text">{{i.domain}}</p>
+                          <p class="card-text">{{i.ip}}</p>
+                          <p class="card-text">{{i.address}}</p>
+                          <p class="card-text">{{i.macAddress}}</p>
+                          <p class="card-text">{{i.bank}}</p>
+                          <p class="card-text">{{i.company}}</p>
+                          <p class="card-text">{{i.ein}}</p>
+                          <p class="card-text">{{i.ssn}}</p>
+                          <p class="card-text">{{i.userAgent}}</p>
+
+                        </div>
+
+                      </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
